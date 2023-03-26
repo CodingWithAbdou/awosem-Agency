@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Specail Project</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/noarmalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="setting">
+      <i class="fa-solid fa-gears show-off"></i>
+      <div class="boxs-setting">
+        <div class="box float">
+          <h3>Floating Header</h3>
+          <button class="yes">Yes</button>
+          <button class="no on">No</button>
+        </div>
+        <div class="box color">
+          <h3>Color</h3>
+          <ul>
+            <li class="on" data-color="#009688"></li>
+            <li data-color="#2196f3"></li>
+            <li data-color="#f44336"></li>
+            <li data-color="#673ab7"></li>
+            <li data-color="#ffeb3b"></li>
+            <li data-color="#795548"></li>
+          </ul>
+        </div>
+        <div class="box background">
+          <h3>Background</h3>
+          <div class="per-au-ma">
+            <button class="on auto">Auto</button>
+            <button class="manual">Manual</button>
+          </div>
+          <ul>
+            <li><img class="on" src="./image/loading-1.jpg" alt="" /></li>
+            <li><img src="./image/loading-2.jpg" alt="" /></li>
+            <li><img src="./image/loading-3.jpg" alt="" /></li>
+            <li><img src="./image/loading-4.jpg" alt="" /></li>
+            <li><img src="./image/loading-5.jpg" alt="" /></li>
+          </ul>
+        </div>
+        <div class="box setting-bullets">
+          <h3>Show Bullet</h3>
+          <div class="yes-no">
+            <button class="on yes">Yes</button>
+            <button class="no">No</button>
+          </div>
+        </div>
+      </div>
+      <button id="rest">Defult Option</button>
+    </div>
+    <div class="bullets">
+      <div class="bullet active" data-section=".landing">
+        <div class="name-bullets">Home</div>
+      </div>
+      <div class="bullet" data-section=".about-us">
+        <div class="name-bullets">About Us</div>
+      </div>
+      <div class="bullet" data-section=".our-skills">
+        <div class="name-bullets">Our Skills</div>
+      </div>
+      <div class="bullet" data-section=".gallery">
+        <div class="name-bullets">Our Gallery</div>
+      </div>
+      <div class="bullet" data-section=".timeline">
+        <div class="name-bullets">Timeline</div>
+      </div>
+      <div class="bullet" data-section=".features">
+        <div class="name-bullets">Our Features</div>
+      </div>
+      <div class="bullet" data-section=".testimonials">
+        <div class="name-bullets">Testimonials</div>
+      </div>
+      <div class="bullet" data-section=".contact">
+        <div class="name-bullets">Contact Us</div>
+      </div>
+    </div>
+    <div class="landing auto" id="landing">
+      <div class="fogy"></div>
+      <div class="head-landing">
+        <div class="logo"><span>Specail Design</span></div>
+        <div class="container-links">
+          <ul class="links">
+            <li>
+              <a data-section=".landing" href="#landing" class="active">Home</a>
+            </li>
+            <li>
+              <a data-section=".about-us" href="#about">About</a>
+            </li>
+            <li>
+              <a data-section=".our-skills" href="#skill">Skills</a>
+            </li>
+            <li>
+              <a data-section=".gallery" href="#gallery">Gallery</a>
+            </li>
+            <li>
+              <a data-section=".timeline" href="#timeline">Timeline</a>
+            </li>
+            <li>
+              <a data-section=".features" href="#features">Features</a>
+            </li>
+            <li>
+              <a data-section=".testimonials" href="#testimonials"
+                >Testimonials</a
+              >
+            </li>
+            <li><a data-section=".contact" href="#contact">Contact</a></li>
+          </ul>
+          <button class="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+      <div class="introduction">
+        <h1>We Are <span>Creative</span> Agency</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed,
+          pariatur! Perferendis obcaecati esse ad, doloremque nihil similique
+          officiis maxime ea in consequuntur, voluptatem voluptatum illum
+          eligendi laboriosam quod magnam dicta!
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="about-us" id="about">
+        <div class="box">
+          <h2>About Us</h2>
+
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas
+            perferendis quibusdam ab velit vel porro sequi magnam eveniet. Fuga
+            expedita dolorum dolorem consectetur suscipit adipisci, earum
+            repellendus doloribus architecto porro.
+          </p>
+        </div>
+        <div class="box">
+          <img src="image/about-us.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="our-skills" id="skill">
+      <div class="container">
+        <h2>Our Skills</h2>
+        <div class="box">
+          <div class="name">HTML</div>
+          <div class="progress">
+            <span data-width="40%"></span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="name">CSS</div>
+          <div class="progress">
+            <span data-width="65%"></span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="name">JavaScript</div>
+          <div class="progress">
+            <span data-width="45%"></span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="name">TypeScript</div>
+          <div class="progress">
+            <span data-width="90%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="gallery" id="gallery">
+      <div class="container">
+        <h2>Our Gallery</h2>
+        <div class="box">
+          <div class="image">
+            <img src="./image/gallery-1.jpg" alt="Image One" />
+          </div>
+          <div class="image">
+            <img src="./image/gallery-2.jpg" alt="Image Two" />
+          </div>
+          <div class="image">
+            <img src="./image/gallery-3.jpg" alt="Image Three" />
+          </div>
+          <div class="image">
+            <img src="./image/gallery-4.jpg" alt="Image Four" />
+          </div>
+          <div class="image">
+            <img src="./image/gallery-5.jpg" alt="Image Five" />
+          </div>
+          <div class="image">
+            <img src="./image/gallery-6.jpg" alt="Image Six" />
+          </div>
+          <div class="image">
+            <img src="./image/gallery-7.jpg" alt="Image Seven" />
+          </div>
+          <div class="image">
+            <img src="./image/gallery-8.jpeg" alt="Image Eigth" />
+          </div>
+          <div class="image">
+            <img src="./image/gallery-9.jpg" alt="Image Nine" />
+          </div>
+          <div class="image">
+            <img src="./image/gallery-10.jpg" alt="Image Ten" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="timeline" id="timeline">
+      <div class="container">
+        <div class="content">
+          <div class="year">2022</div>
+          <div class="box left">
+            <h3>Testing Heading</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse modi
+              similique, sint ipsa tempore quaerat nulla adipisci nostrum
+              quisquam molestias laboriosam, error ipsam a, quas maiores!
+              Reprehenderit iure expedita eligendi.
+            </p>
+          </div>
+          <div class="box right">
+            <h3>Testing Heading</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse modi
+              similique, sint ipsa tempore quaerat nulla adipisci nostrum
+              quisquam molestias laboriosam, error ipsam a, quas maiores!
+              Reprehenderit iure expedita eligendi.
+            </p>
+          </div>
+          <div class="year">2020</div>
+          <div class="box right">
+            <h3>Testing Heading</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse modi
+              similique, sint ipsa tempore quaerat nulla adipisci nostrum
+              quisquam molestias laboriosam, error ipsam a, quas maiores!
+              Reprehenderit iure expedita eligendi.
+            </p>
+          </div>
+          <div class="box left">
+            <h3>Testing Heading</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse modi
+              similique, sint ipsa tempore quaerat nulla adipisci nostrum
+              quisquam molestias laboriosam, error ipsam a, quas maiores!
+              Reprehenderit iure expedita eligendi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="features" id="features">
+      <h2>Our Features</h2>
+      <div class="container">
+        <div class="box">
+          <i class="fa-solid fa-code"></i>
+          <h4>Development</h4>
+          <p>
+            We are Profissionall , We are Do Anything Your Came In Your Maind
+          </p>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-bullhorn"></i>
+          <h4>Marketing</h4>
+          <p>
+            We are Profissionall , We are Do Anything Your Came In Your Maind
+          </p>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-server"></i>
+          <h4>Hosting</h4>
+          <p>
+            We are Profissionall , We are Do Anything Your Came In Your Maind
+          </p>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-database"></i>
+          <h4>Database</h4>
+          <p>
+            We are Profissionall , We are Do Anything Your Came In Your Maind
+          </p>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-icons"></i>
+          <h4>Design</h4>
+          <p>
+            We are Profissionall , We are Do Anything Your Came In Your Maind
+          </p>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-shield-halved"></i>
+          <h4>Security</h4>
+          <p>
+            We are Profissionall , We are Do Anything Your Came In Your Maind
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="testimonials" id="testimonials">
+      <h2>Testimonials</h2>
+      <div class="container">
+        <div class="box">
+          <p>
+            Iam Very Hapy with The product Its Amazing And I recived Very Fast
+            And Price Is Lower than Any Other Pleas Thanks A Lot For This
+            Contact
+          </p>
+          <div class="box-parsen">
+            <img src="./image/testimonials-1.png" alt="" />
+            <div>
+              <h4>Khaldi Abdou</h4>
+              <span>CEA At Company</span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <p>
+            Iam Very Hapy with The product Its Amazing And I recived Very Fast
+            And Price Is Lower than Any Other Pleas Thanks A Lot For This
+            Contact
+          </p>
+          <div class="box-parsen">
+            <img src="./image/testimonials-2.png" alt="" />
+            <div>
+              <h4>Fatima Eladja</h4>
+              <span>CBA At Company</span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <p>
+            Iam Very Hapy with The product Its Amazing And I recived Very Fast
+            And Price Is Lower than Any Other Pleas Thanks A Lot For This
+            Contact
+          </p>
+          <div class="box-parsen">
+            <img src="./image/testimonials-3.png" alt="" />
+            <div>
+              <h4>Labaid Cherif</h4>
+              <span>ABC At Company</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact" id="contact">
+      <h2>Contact Us</h2>
+      <div class="container">
+        <div class="box">
+          <input type="text" name="username" placeholder="Enter Your Name" />
+          <input type="text" name="number" placeholder="Enter Your Phone" />
+          <input type="email" name="email" placeholder="Enter Your Email" />
+          <input type="text" name="subject" placeholder="Subject" />
+        </div>
+        <div class="box">
+          <textarea name="Message" placeholder="Enter Your Message"></textarea>
+          <input type="submit" value="Send" />
+        </div>
+      </div>
+    </div>
+    <footer>
+      Created With Love <i class="fa-solid fa-heart"></i> By Osama Elzero
+      <span></span>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
